@@ -1,0 +1,9 @@
+﻿  moc NetWorkTest.h
+  moc CustomDialog.h
+  CustomDialog.cpp
+  NetWorkTest.cpp
+  main.cpp
+  qrc_NetWorkTest.cpp
+  moc_NetWorkTest.cpp
+  moc_CustomDialog.cpp
+  NetWorkTest.vcxproj -> D:\Visual Studio\Visual Studio Project\NetWorkTest\x64\Release\NetWorkTest.exe

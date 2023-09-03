@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>QtProject_LPClass</class>
+ <widget class="QWidget" name="QtProject_LPClass" >
+  <property name="objectName" >
+   <string notr="true">QtProject_LPClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>QtProject_LP</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="QtProject_LP.qrc"/>
+ </resources>
+ <connections/>
+</UI>
