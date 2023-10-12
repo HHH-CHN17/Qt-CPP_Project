@@ -1,0 +1,35 @@
+/******************************QtProject_LP******************************/
+QtProject_LP QComboBox#comboBox{
+	border: 1px solid blue;
+	border-radius: 7px;
+	padding-left: 10px;
+}
+
+QtProject_LP QComboBox#comboBox::drop-down{
+	width: 40px;
+	height: 40px;
+	/*margin-top: 10px;
+	margin-right: 20px;*/
+	/*subcontrol-position: right;
+	subcontrol-origin: padding;*/
+	/*border设置边框属性，margin设置外边距，padding设置内边距*/
+	border-left: 1px solid gray;
+}
+QtProject_LP QComboBox#comboBox::down-arrow{
+
+	image:url(:/downArrow.png);
+	
+}
+QtProject_LP QComboBox#comboBox QAbstractItemView{
+	border: 1px solid blue;
+}
+QtProject_LP QComboBox#comboBox QAbstractItemView::item{
+	height: 40px;
+	/*padding-left: 10px;*/
+	border-radius: 7px;
+	/*border: 1px solid blue;*/
+}
+QtProject_LP QComboBox#comboBox QAbstractItemView::item:selected {
+    background-color: #3366CC; 
+    color: #FFFFFF;
+}

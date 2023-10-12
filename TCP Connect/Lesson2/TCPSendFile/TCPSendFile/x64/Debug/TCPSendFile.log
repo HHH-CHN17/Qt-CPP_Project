@@ -1,0 +1,6 @@
+﻿  moc MainView.h
+  MainView.cpp
+  SendFIle.cpp
+  main.cpp
+  moc_MainView.cpp
+  TCPSendFile.vcxproj -> D:\Visual Studio\Visual Studio Project\TCP Connect\Lesson2\TCPSendFile\x64\Debug\TCPSendFile.exe

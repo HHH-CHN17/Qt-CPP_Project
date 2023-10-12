@@ -1,4 +1,8 @@
 <RCC>
-    <qresource prefix="QtProject_LP">
+    <qresource prefix="/">
+        <file>Chinese_zh.qm</file>
+        <file>English_en.qm</file>
+        <file>Demo.qss</file>
+        <file>downArrow.png</file>
     </qresource>
 </RCC>

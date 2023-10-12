@@ -1,0 +1,6 @@
+﻿  moc UDPServer.h
+  UDPServer.cpp
+  main.cpp
+  qrc_UDPServer.cpp
+  moc_UDPServer.cpp
+  UDPServer.vcxproj -> D:\Visual Studio\Visual Studio Project\UDP Connect\UDPServer\x64\Debug\UDPServer.exe

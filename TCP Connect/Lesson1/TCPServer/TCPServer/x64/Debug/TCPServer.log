@@ -1,0 +1,5 @@
+﻿  CMainView.cpp
+  main.cpp
+  qrc_MainView.cpp
+  moc_CMainView.cpp
+  TCPServer.vcxproj -> D:\Visual Studio\Visual Studio Project\TCP Connect\Lesson1\TCPServer\x64\Debug\TCPServer.exe

@@ -1,2 +1,3 @@
 ﻿  main.cpp
+D:\Visual Studio\Visual Studio Project\Project_LP\main.cpp(25): warning C4172: 返回局部变量或临时变量的地址: x
   Project_LP.vcxproj -> D:\Visual Studio\Visual Studio Project\Project_LP\x64\Debug\Project_LP.exe

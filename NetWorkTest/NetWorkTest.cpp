@@ -38,7 +38,7 @@ void NetWorkTest::GetHostInfomation()
     QList<QHostAddress> listAddr = hostinfo.addresses();
     if (!listAddr.isEmpty())
     {
-        QString str = listAddr.at(0).toString();
+        QString str = listAddr.at(1).toString();
 	    ui.IPaddr->setText(str);
         qDebug() << hostinfo.hostName();
         qDebug() << "IP num: " << listAddr.size();
@@ -53,8 +53,8 @@ void NetWorkTest::SlotHostDetail()
 
     for (const auto& listElemInterface : listInterface)
     {
-        strDetail += tr("Device: ") + listElemInterface.name() + "\n";
-        strDetail += tr("HardWare Address: ") + listElemInterface.hardwareAddress() + "\n";
+        strDetail += tr("设备: ") + listElemInterface.name() + "\n";
+        strDetail += tr("硬件地址: ") + listElemInterface.hardwareAddress() + "\n";
 
         QList<QNetworkAddressEntry> entryList = listElemInterface.addressEntries();
         for (const auto& listElemEntry : entryList)
